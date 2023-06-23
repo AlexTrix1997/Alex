@@ -1,0 +1,33 @@
+body
+{
+  background: #F6E514;
+  /* este codigo es un comentario privado para mi*/
+  /* to top, to right, to left es para modificar la dirección del background, pero si queremos especificar los grados de inclinación específico: usamos (el numero) deg*/
+  background: linear-gradient(to top, #F6E514, rgb(212, 211, 196), gray);
+  background: linear-gradient(24deg, #F6E514, rgb(212, 211, 196), gray);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.parrafo1
+{
+  color: yellow;
+  font-family: sans-serif;
+  font-family: 'Pangolin', cursive;
+  font-size: 50px; 
+  font-weight: 700;
+}
+
+.parrafo2
+{
+  color: black;
+  font-family: sans-serif;
+  font-family: 'Pangolin', cursive;
+  font-size: 20px;
+}
+
+#Titulo1
+{
+  text-decoration: underline;
+  font-size: 40px
+}
